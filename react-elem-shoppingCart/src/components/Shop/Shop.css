@@ -1,0 +1,79 @@
+.shop {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #515151;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-left: 24px;
+    transition: .3s;
+    z-index: 1000000;
+    bottom: 0;
+    left: 0;
+}
+
+.shop .msg b{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.shop .end {
+    width: 110px;
+    height: 100%;
+    color: #333;
+    background: #ffc94c;
+    text-align: center;
+    line-height: 50px;
+}
+
+.shop .gray {
+    background: #515151;
+    color: #fff;
+}
+
+.shop .view{
+    display: flex;
+    align-items: center;
+}
+
+.shop .alret {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: #ffc94c;
+    border-radius: 50px;
+    margin-right: 10px;
+    transform: translateY(-10px);
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.alret i {
+    font-size: 30px;
+}
+
+.alret .count {
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #ff3c00;
+    top: -6px;
+    right: 0;
+    border-radius: 50px;
+}
+
+.alret .hide {
+    display: none;
+}
+
+.count b {
+    display: block;
+    transform: translateY(-17px);
+    color: #fff;
+    font-size: 8px;
+}
